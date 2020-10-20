@@ -14,13 +14,14 @@ while True:
   
   for each_word in list_of_words:
     
-    if each_word == "sad":
-      feelings_list.append("sad")
-      encouragement_list.append("we can both be the depression brothers")
+    a=input(What is your feelings?)
+    if a== "sad":
+      print("sad")
+      print("we can both be the depression brothers")
       counter += 1
-    if each_word == "happy":
-      feelings_list.append("happy")
-      encouragement_list.append("why are you happy your are supposed to be depressed stupid boy")
+    if a == "happy":
+      print("happy")
+      print("why are you happy your are supposed to be depressed stupid boy")
       counter += 1
     if each_word == "tired":
       feelings_list.append("tired")
